@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    margin: 1 auto;
+    margin: 1px auto;
     width: 800px;
     text-align: center;
     margin-left: 350px;
@@ -68,7 +68,7 @@ button:hover {
 }
 
 footer{
-    margin: 1 auto;
+    margin: 1px auto;
     width: 800px;
     text-align: center;
     margin-left: 350px;
