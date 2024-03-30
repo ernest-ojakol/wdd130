@@ -122,3 +122,61 @@ footer {
     color: #666;
 }
 
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    font-family: var(--paragraph-font);
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info li strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+form{
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px dotted rgb(0,0,0);
+    border-radius: 0.5rem;
+    background-color:rgb(198, 197, 197);
+    display: grid;
+    font-family: var(--paragraph-font);
+    text-align: left;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: var(--paragraph-font);
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea{
+    font-family: var(--paragraph-font);
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: darkgreen;
+}
